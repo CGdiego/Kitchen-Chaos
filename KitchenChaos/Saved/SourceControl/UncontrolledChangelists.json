@@ -1,0 +1,23 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/diego/Documents/GitHub/Kitchen-Chaos/KitchenChaos/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset",
+				"C:/Users/diego/Documents/GitHub/Kitchen-Chaos/KitchenChaos/Content/Gun/Sniper_Stand.uasset",
+				"C:/Users/diego/Documents/GitHub/Kitchen-Chaos/KitchenChaos/Content/Gun/KSR29sniperrifle.uasset",
+				"C:/Users/diego/Documents/GitHub/Kitchen-Chaos/KitchenChaos/Content/Gun/ak_12_PBS.uasset",
+				"C:/Users/diego/Documents/GitHub/Kitchen-Chaos/KitchenChaos/Content/Gun/BP_Gun.uasset",
+				"C:/Users/diego/Documents/GitHub/Kitchen-Chaos/KitchenChaos/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/6/3D/Z1XNXKX6Y7QAXFSCTL0GDO.uasset",
+				"C:/Users/diego/Documents/GitHub/Kitchen-Chaos/KitchenChaos/Content/Gun/ak_12_low_poly.uasset",
+				"C:/Users/diego/Documents/GitHub/Kitchen-Chaos/KitchenChaos/Content/Gun/ak_12_low_poly_clear.uasset",
+				"C:/Users/diego/Documents/GitHub/Kitchen-Chaos/KitchenChaos/Content/Gun/ak_12_rough.uasset",
+				"C:/Users/diego/Documents/GitHub/Kitchen-Chaos/KitchenChaos/Content/Gun/ak_12_transmissive_PBS.uasset",
+				"C:/Users/diego/Documents/GitHub/Kitchen-Chaos/KitchenChaos/Content/Gun/ak_12_transmissive_metal.uasset",
+				"C:/Users/diego/Documents/GitHub/Kitchen-Chaos/KitchenChaos/Content/Gun/ak_12_transmissive_norm.uasset"
+			]
+		}
+	]
+}
