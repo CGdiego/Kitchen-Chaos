@@ -18,19 +18,23 @@ jobs:
           unzip butler.zip
           chmod +x butler
 
-      - name: Download release assets
+      - name: Download latest release ZIP
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           mkdir release
-          gh release download --repo CGdiego/Kitchen-Chaos --dir release
 
-      - name: Show downloaded files
+          gh release download \
+            --repo CGdiego/Kitchen-Chaos \
+            --pattern "*.zip" \
+            --dir release
+
+      - name: Show release files
         run: |
           echo "=== RELEASE ==="
           find release
 
-      - name: Extract zip
+      - name: Extract ZIP
         run: |
           mkdir upload
 
@@ -41,7 +45,7 @@ jobs:
             exit 1
           fi
 
-          unzip "$ZIP" -d upload
+          unzip -o "$ZIP" -d upload
 
           echo "=== UPLOAD ==="
           find upload
