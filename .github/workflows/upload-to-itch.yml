@@ -1,6 +1,7 @@
 name: Upload Release to itch.io
 
 on:
+  workflow_dispatch:
   release:
     types: [published]
 
@@ -17,14 +18,18 @@ jobs:
           unzip butler.zip
           chmod +x butler
 
-      - name: Download release assets
+      - name: Download Release Assets
         uses: robinraju/release-downloader@v1
         with:
           latest: true
-          out-file-path: build
+          out-file-path: release
 
-      - name: Push to itch
+      - name: Show downloaded files
+        run: |
+          ls -R release
+
+      - name: Upload to itch.io
         env:
           BUTLER_API_KEY: ${{ secrets.BUTLER_API_KEY }}
         run: |
-          ./butler push build CGdiego/kitchen-chaos:windows
+          ./butler push release YOURUSERNAME/YOURGAME:windows
