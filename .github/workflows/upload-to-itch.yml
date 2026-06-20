@@ -32,4 +32,4 @@ jobs:
         env:
           BUTLER_API_KEY: ${{ secrets.BUTLER_API_KEY }}
         run: |
-          ./butler push release YOURUSERNAME/YOURGAME:windows
+          ./butler push release charmandercg/kitchen-chaos:windows
