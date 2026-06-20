@@ -10,8 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
       - name: Install Butler
         run: |
@@ -19,18 +18,36 @@ jobs:
           unzip butler.zip
           chmod +x butler
 
-      - name: Download Release Assets
-        uses: robinraju/release-downloader@v1
-        with:
-          latest: true
-          out-file-path: release
+      - name: Download release assets
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir release
+          gh release download --repo CGdiego/Kitchen-Chaos --dir release
 
       - name: Show downloaded files
         run: |
-          ls -R release
+          echo "=== RELEASE ==="
+          find release
+
+      - name: Extract zip
+        run: |
+          mkdir upload
+
+          ZIP=$(find release -name "*.zip" | head -n 1)
+
+          if [ -z "$ZIP" ]; then
+            echo "ZIP NOT FOUND"
+            exit 1
+          fi
+
+          unzip "$ZIP" -d upload
+
+          echo "=== UPLOAD ==="
+          find upload
 
       - name: Upload to itch.io
         env:
           BUTLER_API_KEY: ${{ secrets.BUTLER_API_KEY }}
         run: |
-          ./butler push release charmandercg/kitchen-chaos:windows
+          ./butler push upload charmandercg/kitchen-chaos:windows
