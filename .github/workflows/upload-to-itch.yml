@@ -10,11 +10,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - name: Download Butler
+      - name: Install Butler
         run: |
-          curl -L https://broth.itch.ovh/butler/linux-amd64/LATEST/archive/default -o butler.zip
+          wget https://broth.itch.zone/butler/linux-amd64/LATEST/archive/default -O butler.zip
           unzip butler.zip
           chmod +x butler
 
