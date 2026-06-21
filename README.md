@@ -4,6 +4,10 @@ You're kinda lost, but then, you find a friendly creature called Bomby, who tell
 
 While you're defeating the crowd of round creatures, you encounter some type of loot boxes and other weird stuff. Eventually you find a bear, that asks you to eliminate 30 Kleebys, and as a reward, you'll get to encounter the C.R.E.A.T.U.R.E. So you follow his orders, and he opens up a portal. After entering you appear at a weird place, with corrupted figures and even more loot boxes, however, one thing stands out, which seems to be the infamous C.R.E.A.T.U.R.E. Now you need to defeat it and save the world, if you can.
 
+By the way, the game dialogue is in brazilian portuguese, so if you want the translations, here they are:
+- "Yo bro, I stole Kirby's cake and he came here to the Backrooms to kill me, can you deal with it pls?"
+- "Please, can you kill 30 Kirbies? If you do that, I'll take you to the C.R.E.A.T.U.R.E."
+
 ## Controls
 
 | Key | Action |
