@@ -1,5 +1,13 @@
 # Kitchen Chaos
 
+<p align="center">
+  <a href="https://youtu.be/LZLl9G03l0E">
+    <img src="https://github.com/user-attachments/assets/26df8c75-a21e-45f3-927b-8b8c838c7cfe" width="550">
+  </a>
+</p>
+<p align="center">▶ Watch the Gameplay Trailer</p>
+
+\
 You're kinda lost, but then, you find a friendly creature called Bomby, who tells you that he robbed a cake from a round and pink creature, named Kirby. It was NOT a good idea, so he decided to run to the Backrooms. But the creature followed him, and when the round guy entered the liminal place, it multiplied into a giant mob. Now Bomby needs your help to defeat them all, if that's even possible...
 
 While you're defeating the crowd of round creatures, you encounter some type of loot boxes and other weird stuff. Eventually you find a bear, that asks you to eliminate 30 Kirbies, and as a reward, you'll get to encounter the C.R.E.A.T.U.R.E. So you follow his orders, and he opens up a portal. After entering you appear at a weird place, with corrupted figures and even more loot boxes, however, one thing stands out, which seems to be the infamous C.R.E.A.T.U.R.E. Now you need to defeat it and save the world, if you can.
