@@ -23,7 +23,7 @@ By the way, the game dialogue is in brazilian portuguese, so if you want the tra
 |---|---|
 | `WASD` | Move |
 | Mouse | Look around |
-| Shift | Run |
+| `Shift` | Run |
 | Left Mouse Button | Attack |
 | Right Mouse Button | Zoom |
 | `Space` | Jump |
