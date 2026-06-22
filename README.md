@@ -29,6 +29,11 @@ By the way, the game dialogue is in brazilian portuguese, so if you want the tra
 | `F` | Flashlight |
 | `E` | Talk |
 
+## Downloads
+
+[![Download from GitHub](https://img.shields.io/badge/GitHub-Releases-181717?style=for-the-badge&logo=github)](https://github.com/CGdiego/Kitchen-Chaos/releases)
+[![Play on itch.io](https://img.shields.io/badge/itch.io-Play_Now-FA5C5C?style=for-the-badge&logo=itch.io&logoColor=white)](https://charmandercg.itch.io/kitchen-chaos)
+
 ## Ideas for Next Updates
 
 - [ ] Bullets from the boss change color randomly
