@@ -91,3 +91,4 @@ If you are missing or know someone who is missing from the credits, please let m
 This project was created **without profit (non-profit)** and solely for entertainment, educational, and/or tribute purposes. All characters, names, trademarks, music, images, concepts, and other content belong to their respective owners and copyright holders.
 
 No copyright infringement is intended. This project does not claim ownership of any third-party material used. If any rights holder requests it, content may be removed or modified as necessary.
+> 🚫 No generative AI was used in the code of this game.
